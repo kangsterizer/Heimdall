@@ -271,7 +271,7 @@ bool attemptFlash(BridgeManager *bridgeManager, FILE **fileArray, bool repartiti
 		return (false);
 	}
 
-	if (unknown != 0)
+	if (unknown != 131072)
 	{
 		InterfaceManager::PrintError("Unexpected device info response!\nExpected: 0\nReceived:%i\n", unknown);
 

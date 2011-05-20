@@ -66,6 +66,7 @@ namespace Heimdall
 
 			enum
 			{
+				kPidGalaxyS2DownloadMode	= 0x685D /*
 				kPidGalaxySDownloadMode		= 0x6601/*,
 				kPidGalaxySInternational	= 0x681C,
 				kPidGalaxySNewInternational	= 0x681D,
