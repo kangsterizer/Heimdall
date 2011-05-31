@@ -54,7 +54,7 @@
 using namespace Heimdall;
 
 const DeviceIdentifier BridgeManager::supportedDevices[BridgeManager::kSupportedDeviceCount] = {
-	DeviceIdentifier(BridgeManager::kVidSamsung, BridgeManager::kPidGalaxySDownloadMode)/*,
+	DeviceIdentifier(BridgeManager::kVidSamsung, BridgeManager::kPidGalaxyS2DownloadMode)/*,
 	DeviceIdentifier(BridgeManager::kVidSamsung, BridgeManager::kPidGalaxySInternational),
 	DeviceIdentifier(BridgeManager::kVidSamsung, BridgeManager::kPidGalaxySNewInternational),
 	DeviceIdentifier(BridgeManager::kVidSamsung, BridgeManager::kPidVibrantCanadaBell)*/
